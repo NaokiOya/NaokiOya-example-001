@@ -13,4 +13,10 @@ Commitがこまかすぎて、後になってまとめたいときにもresetは使えます。
 戻りたい地点のCommitを選択し、「Reset current branch to this commit」
 その後、新しくCommitすることでCommitをまとめることができます。
 
+https://noumenon-th.net/programming/2018/12/16/gitrevert/
+・git revert（特定のリビジョンをうちけすコミットを作成する）
+「cを追加」コミットをrevertによって取り消してみます。右クリックで「コミット適用前に戻す…」を選択します。
+「cを追加」コミットは残ったままで、「Revert”cを追加”」といコミットが新しく生成されます。この時ファイルの文字列は「abc」から「ab」になります。
+
+
 
