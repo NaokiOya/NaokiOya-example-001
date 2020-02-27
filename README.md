@@ -18,5 +18,12 @@ https://noumenon-th.net/programming/2018/12/16/gitrevert/
 「cを追加」コミットをrevertによって取り消してみます。右クリックで「コミット適用前に戻す…」を選択します。
 「cを追加」コミットは残ったままで、「Revert”cを追加”」といコミットが新しく生成されます。この時ファイルの文字列は「abc」から「ab」になります。
 
-
+https://qiita.com/coa00/items/1206a9538d4d108ff9ba
+・git pull --rebase（fetch&margeではなくて、fetch&rebaseでremoteの情報をもってくる）
+pull時にmergeではなくrebaseする。
+環境設定->Gitで設定します。
+日本版だとmergeのかわりにrebaseを使います。
+英語版だとUse rebase instead of merge by ...
+をチェックをいれます。
+pull時に選択も可能です。
 
